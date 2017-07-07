@@ -4,4 +4,4 @@ This is the giter8 template of an example application that we will be building o
 
 ## Versions used
 
-The code uses Play 2.5 and Scala 2.11.8 along with sbt 0.13.15.
+The code uses Play 2.6, Scala 2.12.2 along with sbt 0.13.15.
