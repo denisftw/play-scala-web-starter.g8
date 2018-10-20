@@ -14,4 +14,4 @@ It will prompt you to type a project name and then initialize the project in a n
 
 ## Versions used
 
-The code uses Play 2.6, Scala 2.12.2 along with sbt 0.13.15.
+The code uses Play 2.6, Scala 2.12 along with sbt 1.2.
