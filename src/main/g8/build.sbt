@@ -1,13 +1,13 @@
 name := """$name$"""
 version := "1.0-SNAPSHOT"
-scalaVersion := "2.12.7"
+scalaVersion := "2.12.8"
 
 lazy val root = (project in file(".")).enablePlugins(PlayScala)
 pipelineStages := Seq(digest)
 
 libraryDependencies ++= Seq(
   jdbc,
-  ehcache,
+  caffeine,
   ws,
   guice
 )
